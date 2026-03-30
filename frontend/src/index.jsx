@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AirQuality from "./airquality";
+import AirQuality from "./airquality.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
