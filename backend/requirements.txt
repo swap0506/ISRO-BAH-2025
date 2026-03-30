@@ -3,4 +3,6 @@ flask-cors
 numpy
 pandas
 scikit-learn
+xgboost
 gunicorn
+joblib
