@@ -1,0 +1,16 @@
+# environments
+venv/
+backend/venv/
+
+# datasets
+Merra-2/
+CPCB/
+mosdac/
+openaq_data/
+
+# large files
+*.nc4
+*.zip
+
+# python
+__pycache__/
