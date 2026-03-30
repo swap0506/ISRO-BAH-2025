@@ -886,7 +886,14 @@ function PredictionPage() {
       });
 
       const data = await response.json();
+      console.log("Response:", data);
 
+      alert("Prediction success!");
+  } catch (error) {
+    console.error("Error:", error);
+    alert("Actual error: " + error.message);
+  }
+};
       if (data.error) {
         alert(data.error);
       } else {
