@@ -5,9 +5,9 @@ import joblib
 import os
 from datetime import datetime
 
-app = Flask(__name__)
-CORS(app)
+from flask_cors import CORS
 
+CORS(app, supports_credentials=True)
 # ================================
 # LOAD MODELS
 # ================================
